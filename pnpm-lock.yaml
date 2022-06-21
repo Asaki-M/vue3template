@@ -7,14 +7,12 @@ specifiers:
   typescript: ^4.5.4
   vite: ^2.9.9
   vue: ^3.2.25
-  vue-router: '4'
   vue-tsc: ^0.34.7
 
 dependencies:
   element-plus: 2.2.6_vue@3.2.37
   pinia: 2.0.14_j6bzmzd4ujpabbp5objtwxyjp4
   vue: 3.2.37
-  vue-router: 4.0.16_vue@3.2.37
 
 devDependencies:
   '@vitejs/plugin-vue': 2.3.3_vite@2.9.12+vue@3.2.37
@@ -658,15 +656,6 @@ packages:
       '@vue/composition-api':
         optional: true
     dependencies:
-      vue: 3.2.37
-    dev: false
-
-  /vue-router/4.0.16_vue@3.2.37:
-    resolution: {integrity: sha512-JcO7cb8QJLBWE+DfxGUL3xUDOae/8nhM1KVdnudadTAORbuxIC/xAydC5Zr/VLHUDQi1ppuTF5/rjBGzgzrJNA==}
-    peerDependencies:
-      vue: ^3.2.0
-    dependencies:
-      '@vue/devtools-api': 6.1.4
       vue: 3.2.37
     dev: false
 
